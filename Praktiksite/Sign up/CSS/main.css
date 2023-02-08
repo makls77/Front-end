@@ -1,0 +1,98 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #000A0F;
+	font-family: 'Open Sans', sans-serif;
+color: #FFFFFF;
+}
+a{
+	text-decoration: none;
+}
+
+.container{
+
+	width:476px;
+	height:666px;
+	background: #001119;
+	top:39.5px;
+	left:770px;
+	position:relative;
+}
+.title{
+	position:relative;
+	width:348px;
+	height:90px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 140%;
+	display: flex;
+align-items: center;
+text-align: center;
+left:calc(50% - 348px/2);
+margin-bottom: 32px;
+top:52px;
+}
+
+.input_form_container{
+	top:52px;
+	width:348px;
+	height:360px;
+	left:calc(50% - 348px/2);
+	position: relative;
+	align-items: center;
+}
+.Name , .Email , .Password{
+	color: #C4C4CC;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	padding-bottom:8px;
+}
+.Input_Name , .Input_Email , .Input_Password{
+	width:100%;
+	height:48px;
+	background: #0D1D25;
+border-radius: 8px;
+margin-bottom:38px;
+}
+.Submit_Button{
+background: #750310;
+border-radius: 5px;
+width:100%;
+Height:48px;
+
+}
+.Sign_In{
+	position: relative;
+	left:calc(50% - 205px/2);
+	top:120px;
+	width:205px;
+	font-weight: 500;
+	font-family: 'Roboto';
+	align-items: center;
+text-align: center;
+font-size: 14px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.logo_container{
+	position: absolute;
+	width:286px;
+	height:150px;
+	top:325px;
+	left:218px;
+}
+.logo_text{
+	font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 42px;
+line-height: 49px;
+align-items: center;
+text-align: center;
+margin-top:-35px;
+}
