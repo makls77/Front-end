@@ -228,20 +228,71 @@
 	</div>
 </section>
 
-<section class="restourant_info">
-	<div class="container">
-		<div class="about_us">
-			<div class="about_us_info">
-				Про нас >
-			</div>
-		</div>
-		<div class="reviews">
-			<div class="reviews_info">
-				Відгуки >
-			</div>
-		</div>
+
+
+
+<div class="container">
+	<div class="about_us">
+            <button class="click">Про нас</button>
+
+            <div class="list">
+
+                <div class="links">Link 1</div>  
+       		</div>
 	</div>
-</section>
+<div>
+
+
+    	
+    <div>
+
+
+        <script>
+
+            let click = document.querySelector('.click');
+
+            let list = document.querySelector('.list');
+
+            let b = document.querySelector('.about_us');
+            
+            
+            
+            click.addEventListener("click",()=>{
+
+                list.classList.toggle('newlist');
+
+            });
+    
+
+        </script>
+
+<div class="container">
+	<div class="review">
+            <button class="click1">Про нас</button>
+
+            <div class="list1">
+
+                <div class="links1">Link 1</div> 
+                <div class="links1">Link 1</div>  
+                <div class="links1">Link 1</div>   
+       		</div>
+	</div>
+<div>
+
+
+<script>
+
+            let click1 = document.querySelector('.click1');
+
+            let list1 = document.querySelector('.list1');
+
+            click1.addEventListener("click",()=>{
+
+                list1.classList.toggle('newlist1');
+
+            });
+
+        </script>
 
 <footer class="footer">
 	<div class="container">
@@ -260,6 +311,10 @@
 		</div>
 		
 	</div>
-</footer>
+</footer> 
+
+
+
+</script>
 </body>
 </html>
